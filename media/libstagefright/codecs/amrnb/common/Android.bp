@@ -73,6 +73,7 @@ cc_library_shared {
         "-DOSCL_IMPORT_REF=",
         "-DOSCL_EXPORT_REF=",
 
+        "-Wno-deprecated-register",
         "-Werror",
     ],
 
